@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  
+  api_service:
+    image: api_dolar
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 7
